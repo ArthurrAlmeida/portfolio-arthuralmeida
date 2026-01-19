@@ -13,7 +13,7 @@ export const SITE_CONFIG = {
   medium: "https://medium.com/@devarthuralmeida",
   about: [
     "Seja bem-vindo ao meu portfólio. Aqui você encontrará projetos focados na construção de arquiteturas robustas e escaláveis.",
-    "Mestrando em Inteligência Artificial e com MBA em Big Data Analytics, possuo formação sólida que une teoria avançada à prática de mercado.",
+    "Mestrando em Inteligência Artificial, com MBA em Big Data Analytics e certificação Microsoft DP-900 (Azure Data Fundamentals), possuo uma formação sólida que une teoria avançada à prática de mercado.",
     "Expertise em governança de dados, otimização de performance e desenvolvimento de pipelines complexos para ambientes de nuvem.",
     "Atualmente atuo como Professor Universitário na área de tecnologia, conciliando a execução técnica de projetos com a docência."
   ],
@@ -22,7 +22,7 @@ export const SITE_CONFIG = {
 export const ACADEMIC_INFO: Academic[] = [
   {
     id: "acad1",
-    institution: "Faculdade Internacional da Paraíba",
+    institution: "Universidade Federal da Paraíba (UFPB)",
     degree: "Mestrando em Inteligência Artificial",
     period: "Em andamento",
     description: "Pesquisa avançada em modelos generativos e otimização de fluxos de processamento de dados com IA."
