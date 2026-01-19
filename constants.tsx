@@ -45,60 +45,59 @@ export const ACADEMIC_INFO: Academic[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "exp1",
-    company: "Faculdade Internacional da Paraíba (FPB)",
-    role: "Professor de Computação em Nuvem & Dados",
-    image: projeto1,
-    period: "Ago 2025 – Presente",
-    description: [
-      "Ministro disciplinas focadas em Modern Data Stack (Azure, Databricks, SQL), preparando alunos para demandas reais de arquitetura escalável e governança.",
-      "Desenvolvi metodologia de ensino própria com material didático personalizado, traduzindo conceitos complexos de Big Data e Engenharia de Software para acelerar o aprendizado técnico.",
-      "Lidero projetos acadêmicos que simulam ambientes reais de Data Lakehouse, aplicando metodologias ágeis (Scrum/Kanban) para desenvolver a prontidão técnica dos alunos.",
+    "id": "exp1",
+    "company": "Faculdade Internacional da Paraíba (FPB)",
+    "role": "Professor de Computação em Nuvem & Dados",
+    "period": "Ago 2025 – Presente",
+    "description": [
+      "Ministro disciplinas focadas em Modern Data Stack (Azure, Databricks, SQL), preparando alunos para demandas reais de arquitetura escalável.",
+      "Desenvolvi metodologia de ensino própria com material didático personalizado, traduzindo conceitos complexos de Big Data para acelerar o aprendizado técnico.",
+      "Lidero projetos acadêmicos que simulam ambientes reais de Data Lakehouse, aplicando metodologias ágeis (Scrum/Kanban).",
       "Capacito turmas no uso prático de tecnologias de nuvem e Modelagem de Dados (Star Schema/Snowflake), conectando a teoria acadêmica às exigências do mercado."
     ],
-    technologies: ["Azure", "Databricks", "SQL", "Modelagem de Dados", "Scrum"]
+    "technologies": ["Azure", "Databricks", "SQL", "Spark", "Scrum", "Modern Data Stack"]
   },
   {
-    id: "exp2",
-    company: "Liga Digital",
-    role: "Engenheiro de Dados (Foco em IA)",
-    location: "João Pessoa, PB",
-    period: "Abr 2024 – Jul 2024",
-    description: [
-      "Desenvolvi e automatizei fluxos de ETL/ELT em Python (Pandas) para alimentação de modelos de Inteligência Artificial, assegurando a qualidade para treinamento de LLMs.",
+    "id": "exp2",
+    "company": "Liga Digital",
+    "role": "Engenheiro de Dados (Foco em IA)",
+    "location": "João Pessoa, PB",
+    "period": "Abr 2024 – Jul 2024",
+    "description": [
+      "Desenvolvi e automatizei fluxos de ETL/ELT em Python (Pandas) para alimentação de modelos de Inteligência Artificial.",
       "Implementei REST APIs para integração e orquestração de dados, garantindo alta disponibilidade e reduzindo a latência na comunicação entre sistemas.",
-      "Otimizei pipelines de dados brutos, aumentando a eficiência do processamento e a confiabilidade das entregas para clientes internacionais (Europa).",
+      "Otimizei pipelines de dados brutos, aumentando a eficiência do processamento e a confiabilidade das entregas para clientes internacionais.",
       "Atuei na manutenção contínua de pipelines de IA e Data Quality, garantindo a estabilidade e a performance dos modelos em produção."
     ],
-    technologies: ["Python", "Pandas", "REST APIs", "LLMs", "Data Quality"]
+    "technologies": ["Python", "Pandas", "Azure Data Factory", "REST APIs", "Data Quality", "Git"]
   },
   {
-    id: "exp3",
-    company: "Grupo Energisa",
-    role: "Engenheiro de Dados",
-    location: "João Pessoa, PB (Híbrido)",
-    period: "Ago 2022 – Ago 2023",
-    description: [
-      "Arquitetei soluções End-to-End utilizando Azure Data Factory (ADF) e Oracle Integrator Data para integrar fontes de faturamento e mercado, reduzindo o tempo de disponibilidade da informação de dias para horas.",
-      "Otimizei consultas complexas e índices em Oracle PL/SQL, obtendo ganho de 98% de performance e redução de 40% nos custos de processamento em nuvem (FinOps).",
-      "Implementei lógicas de deduplicação e tratamento de dados (Call Center/NPS) para o Data Warehouse, elevando a confiabilidade dos dashboards no Power BI para acima de 99%.",
-      "Assegurei 100% de conformidade com a LGPD no tratamento de dados sensíveis de milhares de clientes em escala nacional."
+    "id": "exp3",
+    "company": "Grupo Energisa",
+    "role": "Engenheiro de Dados",
+    "location": "João Pessoa, PB (Híbrido)",
+    "period": "Ago 2022 – Ago 2023",
+    "description": [
+      "Atuei na engenharia de dados do Ciclo de Faturamento, integrando fontes críticas financeiras e de mercado para suportar análises de receita.",
+      "Arquitetei soluções End-to-End utilizando Azure Data Factory (ADF) e Oracle Integrator Data, reduzindo o tempo de disponibilidade da informação de dias para horas.",
+      "Otimizei consultas complexas em Oracle PL/SQL, obtendo ganho de 98% de performance e redução de 40% nos custos de processamento em nuvem (FinOps).",
+      "Implementei lógicas de deduplicação e tratamento de dados para o Data Warehouse, assegurando a confiabilidade dos dashboards financeiros."
     ],
-    technologies: ["Azure Data Factory", "Oracle PL/SQL", "FinOps", "Power BI", "LGPD"]
+    "technologies": ["Azure Data Factory", "Oracle PL/SQL", "Azure Cosmos DB", "Power BI", "FinOps", "Data Warehouse"]
   },
   {
-    id: "exp4",
-    company: "Job Space Creative",
-    role: "Desenvolvedor FullStack",
-    location: "Curitiba, PR (Remoto)",
-    period: "Fev 2022 – Jul 2022",
-    description: [
+    "id": "exp4",
+    "company": "Job Space Creative",
+    "role": "Desenvolvedor FullStack",
+    "location": "Curitiba, PR (Remoto)",
+    "period": "Fev 2022 – Jul 2022",
+    "description": [
       "Atuei no desenvolvimento e manutenção de plataformas de e-commerce VTEX de alto tráfego para grandes marcas como Britânia e Philco.",
       "Implementei melhorias de front-end utilizando JavaScript, HTML e CSS, focando em responsividade e otimização da experiência do usuário (UX).",
       "Utilizei pipelines de CI/CD e versionamento com Git/GitHub para automatizar deploys e garantir a integridade do código em produção.",
       "Colaborei em equipe utilizando metodologias ágeis para entrega contínua de funcionalidades e correções de bugs."
     ],
-    technologies: ["VTEX", "JavaScript", "CI/CD", "Git", "UX Design"]
+    "technologies": ["VTEX", "JavaScript", "CI/CD", "Git", "HTML5/CSS3"]
   }
 ];
 
