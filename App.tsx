@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Academic from './components/Academic';
 import Certifications from './components/Certifications';
+import Certificacoes from './components/Certificacoes';
 import { SITE_CONFIG } from './constants';
 
 const App: React.FC = () => {
@@ -27,6 +28,7 @@ const App: React.FC = () => {
         <Skills />        {/* 02. Arsenal Técnico */}
         <Academic />      {/* 03. Formação Acadêmica */}
         <Experience />    {/* 04. Carreira Profissional */}
+        <Certificacoes />
         <Certifications /> {/* 05. Credenciais */}
       </main>
 

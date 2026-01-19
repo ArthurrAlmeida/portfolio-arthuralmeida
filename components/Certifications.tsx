@@ -8,12 +8,12 @@ const Certifications: React.FC = () => {
       <div className="text-center space-y-4">
         <div className="flex justify-center items-center gap-2 text-indigo-500 font-mono text-xs font-bold uppercase tracking-widest">
           <span className="w-8 h-px bg-indigo-500"></span>
-          05. Credenciais
+          06. APERFEIÇOAMENTO
           <span className="w-8 h-px bg-indigo-500"></span>
         </div>
-        <h2 className="text-4xl md:text-5xl font-bold text-white">Cursos e Certificações</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-white">Cursos e Workshops</h2>
         <p className="text-gray-400 max-w-lg mx-auto">
-          Certificações profissionais, cursos e treinamentos especializados que validam minha expertise em tecnologias modernas.
+          Trilha de desenvolvimento contínuo focada em novas tecnologias, aprofundamento técnico e metodologias ágeis.
         </p>
       </div>
 

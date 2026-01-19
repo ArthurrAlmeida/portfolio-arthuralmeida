@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { Project, Skill, Certification, Experience, Academic } from './types';
+import { Project, Skill, Certificacao, Certification, Experience, Academic } from './types';
 import projeto1 from './img/projeto-1.png';
 import projeto2 from './img/projeto-2.jpg';
+import certificacaoDp900 from './img/certificacao.png';
 
 export const SITE_CONFIG = {
   name: "Arthur Almeida",
@@ -154,15 +155,20 @@ export const SKILLS: Skill[] = [
   { name: "Power BI", icon: "📈", category: "Ops & Tools" },
 ];
 
-export const CERTIFICATIONS: Certification[] = [
+export const CERTIFICACOES: Certificacao[] = [
   {
-    id: "c1",
-    title: "Microsoft Certified: Conceitos básicos de dados do Azure (DP-900)",
+    id: "dp-900",
+    title: "Microsoft Certified: Azure Data Fundamentals",
     issuer: "Microsoft",
-    date: "2026",
-    icon: "☁️",
-    link: "#"
+    date: "Jan 2026",
+    image: certificacaoDp900, 
+    link: "https://learn.microsoft.com/api/credentials/share/pt-br/ArthurAlmeida-9156/1D79FC0E01717B89?sharingId=A85CEBB003C9B809", 
+    tags: ["Azure", "Data", "Cloud"]
   },
+
+];
+
+export const CERTIFICATIONS: Certification[] = [
   {
     id: "c3",
     title: "Docker",

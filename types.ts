@@ -35,6 +35,16 @@ export interface Academic {
   description: string;
 }
 
+export interface Certificacao {
+  id: string;
+  title: string;
+  issuer: string;
+  date: string;
+  image: any; // ou string
+  link: string;
+  tags: string[];
+}
+
 export interface Certification {
   id: string;
   title: string;
