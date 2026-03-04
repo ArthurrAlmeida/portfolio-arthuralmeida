@@ -49,28 +49,32 @@ export const EXPERIENCES: Experience[] = [
     "id": "exp1",
     "company": "Faculdade Internacional da Paraíba (FPB)",
     "role": "Professor de Computação em Nuvem & Dados",
+    "location": "João Pessoa, PB (Presencial)",
     "period": "Ago 2025 – Presente",
     "description": [
-      "Ministro disciplinas focadas em Modern Data Stack (Azure, Databricks, SQL), preparando alunos para demandas reais de arquitetura escalável.",
-      "Desenvolvi metodologia de ensino própria com material didático personalizado, traduzindo conceitos complexos de Big Data para acelerar o aprendizado técnico.",
-      "Lidero projetos acadêmicos que simulam ambientes reais de Data Lakehouse, aplicando metodologias ágeis (Scrum/Kanban).",
-      "Capacito turmas no uso prático de tecnologias de nuvem e Modelagem de Dados (Star Schema/Snowflake), conectando a teoria acadêmica às exigências do mercado."
+      "Estruturação de laboratórios simulando ambientes corporativos de dados em Microsoft Azure.",
+      "Provisionamento de workspaces Azure Databricks, configuração de clusters e execução de processamento distribuído com Spark.",
+      "Implementação de arquiteturas Data Lake e Delta Lake para workloads analíticos.",
+      "Introdução a conceitos de governança, controle de acesso (RBAC) e segurança em ambientes de nuvem.",
+      "Elaboração de documentação técnica e padronização de projetos acadêmicos com foco em boas práticas de engenharia de dados."
     ],
-    "technologies": ["Azure", "Databricks", "SQL", "Spark", "Scrum", "Modern Data Stack"]
+    "technologies": ["Microsoft Azure", "Azure Databricks", "Spark", "Data Lake", "Delta Lake", "RBAC"]
   },
   {
     "id": "exp2",
     "company": "Liga Digital",
-    "role": "Engenheiro de Dados (Foco em IA)",
-    "location": "João Pessoa, PB",
+    "role": "Engenheiro de Dados para IA",
+    "location": "João Pessoa, PB (Presencial)",
     "period": "Abr 2024 – Jul 2024",
     "description": [
-      "Desenvolvi e automatizei fluxos de ETL/ELT em Python (Pandas) para alimentação de modelos de Inteligência Artificial.",
-      "Implementei REST APIs para integração e orquestração de dados, garantindo alta disponibilidade e reduzindo a latência na comunicação entre sistemas.",
-      "Otimizei pipelines de dados brutos, aumentando a eficiência do processamento e a confiabilidade das entregas para clientes internacionais.",
-      "Atuei na manutenção contínua de pipelines de IA e Data Quality, garantindo a estabilidade e a performance dos modelos em produção."
+      "Desenvolvimento de pipelines do zero para ingestão e transformação de dados em ambiente Azure.",
+      "Integração de APIs, bases relacionais e arquivos estruturados para consolidação em Data Lake.",
+      "Tratamento de dados faltantes, inconsistentes e padronização de estruturas para consumo analítico.",
+      "Implementação de logs estruturados para rastreabilidade e monitoramento de execuções.",
+      "Modelagem de dados para integração com ferramentas de BI.",
+      "Implementação de CI/CD para versionamento e automação de deploy de pipelines."
     ],
-    "technologies": ["Python", "Pandas", "Azure Data Factory", "REST APIs", "Data Quality", "Git"]
+    "technologies": ["Python", "n8n", "Django", "Azure Data Factory", "SQL", "CI/CD"]
   },
   {
     "id": "exp3",
@@ -79,32 +83,46 @@ export const EXPERIENCES: Experience[] = [
     "location": "João Pessoa, PB (Híbrido)",
     "period": "Ago 2022 – Ago 2023",
     "description": [
-      "Atuei na engenharia de dados do Ciclo de Faturamento, integrando fontes críticas financeiras e de mercado para suportar análises de receita.",
-      "Arquitetei soluções End-to-End utilizando Azure Data Factory (ADF) e Oracle Integrator Data, reduzindo o tempo de disponibilidade da informação de dias para horas.",
-      "Otimizei consultas complexas em Oracle PL/SQL, obtendo ganho de 98% de performance e redução de 40% nos custos de processamento em nuvem (FinOps).",
-      "Implementei lógicas de deduplicação e tratamento de dados para o Data Warehouse, assegurando a confiabilidade dos dashboards financeiros."
+      "Construção e manutenção de mais de 15 pipelines ETL/ELT em Azure Data Factory e Oracle Integrator Data, atendendo múltiplas áreas corporativas.",
+      "Desenvolvimento e manutenção de fluxos de integração com Oracle Data Integrator (ODI) em ambiente on-premise.",
+      "Versionamento e organização de pacotes ODI, garantindo controle e rastreabilidade das integrações.",
+      "Criação de views e procedures em SQL e PL/SQL para suporte direto a times de BI e Analytics.",
+      "Otimização de cargas e transformações, reduzindo o tempo médio de processamento em aproximadamente 20%.",
+      "Correção de incidentes de falha em cargas e atuação preventiva para manter SLA de dados.",
+      "Validação de qualidade de dados antes da disponibilização para dashboards analíticos.",
+      "Participação na definição e evolução da arquitetura híbrida (on-premise + Azure).",
+      "Elaboração de documentação técnica e funcional para usuários e áreas de negócio."
     ],
-    "technologies": ["Azure Data Factory", "Oracle PL/SQL", "Azure Cosmos DB", "Power BI", "FinOps", "Data Warehouse"]
+    "technologies": ["Python", "Oracle Integrator Data", "Azure Data Factory", "SQL", "PL/SQL", "Power BI"]
   },
   {
     "id": "exp4",
     "company": "Job Space Creative",
     "role": "Desenvolvedor FullStack",
-    "location": "Curitiba, PR (Remoto)",
+    "location": "Remoto",
     "period": "Fev 2022 – Jul 2022",
     "description": [
-      "Atuei no desenvolvimento e manutenção de plataformas de e-commerce VTEX de alto tráfego para grandes marcas como Britânia e Philco.",
-      "Implementei melhorias de front-end utilizando JavaScript, HTML e CSS, focando em responsividade e otimização da experiência do usuário (UX).",
-      "Utilizei pipelines de CI/CD e versionamento com Git/GitHub para automatizar deploys e garantir a integridade do código em produção.",
-      "Colaborei em equipe utilizando metodologias ágeis para entrega contínua de funcionalidades e correções de bugs."
+      "Desenvolvimento e manutenção de plataformas VTEX para e-commerces de alto tráfego.",
+      "Implementação de melhorias de performance e responsividade utilizando JavaScript, HTML e CSS.",
+      "Automação de deploy com pipelines CI/CD e versionamento via Git/GitHub.",
+      "Colaboração em times ágeis para entrega contínua de funcionalidades."
     ],
-    "technologies": ["VTEX", "JavaScript", "CI/CD", "Git", "HTML5/CSS3"]
+    "technologies": ["JavaScript", "HTML/CSS", "VTEX", "CI/CD", "Git/GitHub"]
   }
 ];
 
 export const PROJECTS: Project[] = [
   {
     id: "1",
+    title: "Cripto Data Lakehouse - ELT & Near Real-Time Analytics",
+    description: "Pipeline ELT moderno utilizando Arquitetura Medalhão para processar dados da API CoinGecko com Databricks, Delta Lake e Power BI.",
+    image: projeto3, 
+    tags: ["Azure Databricks", "Delta Lake", "Azure Data Lake Gen2", "PySpark", "Power BI"],
+    link: "https://github.com/ArthurrAlmeida/Azure-data-warehouse-adventureworks",
+    github: "https://github.com/ArthurrAlmeida/Azure-data-warehouse-adventureworks"
+  },
+  {
+    id: "2",
     title: "Data Warehouse Moderno & Pipeline ETL no Azure",
     description: "Pipeline ETL completo (Bronze/Silver/Gold) usando ADF, Data Lake e SQL Database. Veja o código e a documentação.",
     image: projeto1,
@@ -113,7 +131,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/ArthurrAlmeida/Azure-data-warehouse-adventureworks"
   },
   {
-    id: "2",
+    id: "3",
     title: "API de Futebol em Tempo Real com NestJS",
     description: "Coleta de dados esportivos em tempo real com NestJS e TypeScript. Integração via API externa, persistência em PostgreSQL e documentação automática.",
     image: projeto2,
@@ -121,15 +139,15 @@ export const PROJECTS: Project[] = [
     link: "https://github.com/ArthurrAlmeida/SistemaColetaDeDadosAPIFootball",
     github: "https://github.com/ArthurrAlmeida/SistemaColetaDeDadosAPIFootball"
   },
-  /*{
-    id: "3",
-    title: "Framework de Governança de Dados",
-    description: "Criação de automações para catálogo de dados e controle de acesso (RBAC) em ambientes multi-tenant de nuvem.",
-    image: "./imagens/projeto3.jpg",
-    tags: ["Unity Catalog", "Python", "Azure DevOps"],
-    link: "#",
-    github: "#"
-  }*/
+  {
+    id: "4",
+    title: "Bootcamp AWS - Migração de Dados para SnowFlake",
+    description: "Pipeline End-to-End orquestrado no AWS EC2 com Airflow. Ingestão de banco local para Snowflake e modelagem dimensional (Star Schema) via dbt",
+    image: projeto4,
+    tags: ["Apache Airflow", "Snowflake", "dbt", "AWS"],
+    link: "https://github.com/ArthurrAlmeida/Migracao-Dados-Local-para-AWS",
+    github: "https://github.com/ArthurrAlmeida/Migracao-Dados-Local-para-AWS"
+  }
 ];
 
 export const SKILLS: Skill[] = [
