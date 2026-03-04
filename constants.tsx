@@ -115,7 +115,7 @@ export const EXPERIENCES: Experience[] = [
 export const PROJECTS: Project[] = [
   {
     id: "1",
-    title: "Cripto Data Lakehouse - ELT & Near Real-Time Analytics",
+    title: "Cripto Data Lakehouse - ELT & Real-Time Analytics",
     description: "Pipeline ELT moderno utilizando Arquitetura Medalhão para processar dados da API CoinGecko com Databricks, Delta Lake e Power BI.",
     image: projeto3, 
     tags: ["Azure Databricks", "Delta Lake", "Azure Data Lake Gen2", "PySpark", "Power BI"],
