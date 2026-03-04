@@ -1,8 +1,9 @@
-
 import React from 'react';
 import { Project, Skill, Certificacao, Certification, Experience, Academic } from './types';
 import projeto1 from './img/projeto-1.png';
 import projeto2 from './img/projeto-2.jpg';
+import projeto3 from './img/projeto-3.jpg';
+import projeto4 from './img/projeto-4.jpg';
 import certificacaoDp900 from './img/certificacao.png';
 
 export const SITE_CONFIG = {
