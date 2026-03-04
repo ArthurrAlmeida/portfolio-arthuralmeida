@@ -119,8 +119,8 @@ export const PROJECTS: Project[] = [
     description: "Pipeline ELT moderno utilizando Arquitetura Medalhão para processar dados da API CoinGecko com Databricks, Delta Lake e Power BI.",
     image: projeto3, 
     tags: ["Azure Databricks", "Delta Lake", "Azure Data Lake Gen2", "PySpark", "Power BI"],
-    link: "https://github.com/ArthurrAlmeida/Azure-data-warehouse-adventureworks",
-    github: "https://github.com/ArthurrAlmeida/Azure-data-warehouse-adventureworks"
+    link: "https://github.com/ArthurrAlmeida/Crypto-Lakehouse-ELT",
+    github: "https://github.com/ArthurrAlmeida/Crypto-Lakehouse-ELT"
   },
   {
     id: "2",
