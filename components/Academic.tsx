@@ -13,7 +13,7 @@ const Academic: React.FC = () => {
         </div>
         <h2 className="text-4xl md:text-5xl font-bold text-white">Educação</h2>
         <p className="text-gray-400 max-w-lg mx-auto">
-          Minha base teórica e especializações em Inteligência Artificial e Big Data.
+          Minha base teórica e especializações em Dados e Big Data.
         </p>
       </div>
 
