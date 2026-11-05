@@ -15,7 +15,7 @@ export const SITE_CONFIG = {
   medium: "https://medium.com/@devarthuralmeida",
   about: [
     "Seja bem-vindo ao meu portfólio. Aqui você encontrará projetos focados na construção de arquiteturas robustas e escaláveis.",
-    "Mestrando em Inteligência Artificial, com MBA em Big Data Analytics e certificação Microsoft DP-900 (Azure Data Fundamentals), possuo uma formação sólida que une teoria avançada à prática de mercado.",
+    "Engenheiro de Dados com mais de 1 ano de experiência na área de Business Intelligence de uma grande empresa, com pipelines ETL/ELT em Oracle Data Integrator, SQL Server e PL/SQL abastecendo um Data Warehouse corporativo. Microsoft Certified (DP-900). ",
     "Expertise em governança de dados, otimização de performance e desenvolvimento de pipelines complexos para ambientes de nuvem.",
     "Atualmente atuo como Professor Universitário na área de tecnologia, conciliando a execução técnica de projetos com a docência."
   ],
