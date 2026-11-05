@@ -22,22 +22,16 @@ export const SITE_CONFIG = {
 };
 
 export const ACADEMIC_INFO: Academic[] = [
+
   {
     id: "acad1",
-    institution: "Universidade Federal da Paraíba (UFPB)",
-    degree: "Mestrando em Inteligência Artificial",
-    period: "Em andamento",
-    description: "Pesquisa avançada em modelos generativos e otimização de fluxos de processamento de dados com IA."
-  },
-  {
-    id: "acad2",
     institution: "Faculdade Metropolitana",
     degree: "MBA em Big Data Analytics",
     period: "Concluído",
     description: "Especialização em arquitetura de dados, análise estatística e ferramentas de processamento em larga escala."
   },
   {
-    id: "acad3",
+    id: "acad2",
     institution: "Faculdade Internacional da Paraíba",
     degree: "Bacharel em Ciência da Computação",
     period: "Concluído",
@@ -53,13 +47,13 @@ export const EXPERIENCES: Experience[] = [
     "location": "João Pessoa, PB (Presencial)",
     "period": "Ago 2025 – Presente",
     "description": [
-      "Estruturação de laboratórios simulando ambientes corporativos de dados em Microsoft Azure.",
-      "Provisionamento de workspaces Azure Databricks, configuração de clusters e execução de processamento distribuído com Spark.",
-      "Implementação de arquiteturas Data Lake e Delta Lake para workloads analíticos.",
-      "Introdução a conceitos de governança, controle de acesso (RBAC) e segurança em ambientes de nuvem.",
-      "Elaboração de documentação técnica e padronização de projetos acadêmicos com foco em boas práticas de engenharia de dados."
+      "Leciono para os cursos de Ciência da Computação e ADS, nas disciplinas de Algoritmos e Programação e Garantia da Qualidade de Software, com cerca de 120 alunos em 8 turmas ao longo do período.",
+      "Já lecionei também Estruturas de Dados e Análise de Algoritmos, Governança e Serviços de TI, Sistemas Distribuídos e Mobile, Projetos e Processos de TI, e Teoria da Computação e Compiladores.
+",
+      "Orientei projetos práticos end-to-end e documentação técnica, incluindo dinâmicas em que outras turmas atuaram como clientes simulados.",
+      "Apresentei as principais plataformas de computação em nuvem (Azure, AWS e GCP) e ferramentas de CI/CD aplicadas a projetos de software."
     ],
-    "technologies": ["Microsoft Azure", "Azure Databricks", "Spark", "Data Lake", "Delta Lake", "RBAC"]
+    "technologies": ["Ciência da computação e Pesquisa e desenvolvimento"]
   },
   {
     "id": "exp2",
@@ -68,14 +62,11 @@ export const EXPERIENCES: Experience[] = [
     "location": "João Pessoa, PB (Presencial)",
     "period": "Abr 2024 – Jul 2024",
     "description": [
-      "Desenvolvimento de pipelines do zero para ingestão e transformação de dados em ambiente Azure.",
-      "Integração de APIs, bases relacionais e arquivos estruturados para consolidação em Data Lake.",
-      "Tratamento de dados faltantes, inconsistentes e padronização de estruturas para consumo analítico.",
-      "Implementação de logs estruturados para rastreabilidade e monitoramento de execuções.",
-      "Modelagem de dados para integração com ferramentas de BI.",
-      "Implementação de CI/CD para versionamento e automação de deploy de pipelines."
+      "Desenvolvi fluxos de automação com n8n e Make para chatbots e agentes de IA em diversos canais, integrando modelos da OpenAI (receber mensagens, processar com IA e retornar respostas).",
+      "Estruturei em documentos as informações coletadas em reuniões com clientes, usadas como base de conhecimento dos agentes.",
+      "Participei da entrega de diversos chatbots e agentes de IA, em equipe."
     ],
-    "technologies": ["Python", "n8n", "Django", "Azure Data Factory", "SQL", "CI/CD"]
+    "technologies": ["Python", "Otimização fluxos dados", "Testes modelos IA", "Personalização soluções IA", "Análise dados IA"]
   },
   {
     "id": "exp3",
@@ -84,15 +75,13 @@ export const EXPERIENCES: Experience[] = [
     "location": "João Pessoa, PB (Híbrido)",
     "period": "Ago 2022 – Ago 2023",
     "description": [
-      "Construção e manutenção de mais de 15 pipelines ETL/ELT em Azure Data Factory e Oracle Integrator Data, atendendo múltiplas áreas corporativas.",
-      "Desenvolvimento e manutenção de fluxos de integração com Oracle Data Integrator (ODI) em ambiente on-premise.",
-      "Versionamento e organização de pacotes ODI, garantindo controle e rastreabilidade das integrações.",
-      "Criação de views e procedures em SQL e PL/SQL para suporte direto a times de BI e Analytics.",
-      "Otimização de cargas e transformações, reduzindo o tempo médio de processamento em aproximadamente 20%.",
-      "Correção de incidentes de falha em cargas e atuação preventiva para manter SLA de dados.",
-      "Validação de qualidade de dados antes da disponibilização para dashboards analíticos.",
-      "Participação na definição e evolução da arquitetura híbrida (on-premise + Azure).",
-      "Elaboração de documentação técnica e funcional para usuários e áreas de negócio."
+      "Atuação na Gerência de Business Intelligence (equipe de 6 pessoas), com foco em integração e preparação de dados para o Data Warehouse corporativo.",
+      "Construí e mantive pipelines ETL/ELT com Oracle Data Integrator (ODI), carregando um Data Warehouse a partir de bancos Oracle e SQL Server, arquivos e outras fontes, com cargas de diferentes frequências.",
+      "Desenvolvi views, procedures e transformações em SQL Server e PL/SQL para dar suporte aos times de BI e Analytics.",
+      "Otimizei queries e cargas SQL para melhorar o tempo de processamento.",
+      "Implementei validações de Data Quality (contagem de linhas, nulos, duplicidades e comparação com a origem) para dar confiabilidade aos dados consumidos em dashboards e relatórios.",
+      "Realizei a sustentação das cargas: monitoramento, análise e correção de incidentes.",
+      "Documentei integrações e fluxos técnicos."
     ],
     "technologies": ["Python", "Oracle Integrator Data", "Azure Data Factory", "SQL", "PL/SQL", "Power BI"]
   },
@@ -103,10 +92,10 @@ export const EXPERIENCES: Experience[] = [
     "location": "Remoto",
     "period": "Fev 2022 – Jul 2022",
     "description": [
-      "Desenvolvimento e manutenção de plataformas VTEX para e-commerces de alto tráfego.",
-      "Implementação de melhorias de performance e responsividade utilizando JavaScript, HTML e CSS.",
-      "Automação de deploy com pipelines CI/CD e versionamento via Git/GitHub.",
-      "Colaboração em times ágeis para entrega contínua de funcionalidades."
+      "Desenvolvi e mantive lojas virtuais, landing pages e e-mails marketing na plataforma VTEX (templates do CMS) para marcas como Britânia e Philco, usando HTML, CSS e JavaScript.",
+      "Implementei melhorias de performance e responsividade no front-end.",
+      "Atuei em equipe ágil (Scrum), com demandas de alteração organizadas em quadro Kanban, entregando ajustes e correções de bugs de forma contínua.",
+      "Utilizei Git/GitHub para versionamento do código."
     ],
     "technologies": ["JavaScript", "HTML/CSS", "VTEX", "CI/CD", "Git/GitHub"]
   }
@@ -214,7 +203,7 @@ export const CERTIFICATIONS: Certification[] = [
   },
   {
     id: "c6",
-    title: "Databricks Data Enginner Associate",
+    title: "Databricks",
     issuer: "Ramesh Retnasamy",
     date: "2025",
     icon: "📜",
