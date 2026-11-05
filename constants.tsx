@@ -48,8 +48,7 @@ export const EXPERIENCES: Experience[] = [
     "period": "Ago 2025 – Presente",
     "description": [
       "Leciono para os cursos de Ciência da Computação e ADS, nas disciplinas de Algoritmos e Programação e Garantia da Qualidade de Software, com cerca de 120 alunos em 8 turmas ao longo do período.",
-      "Já lecionei também Estruturas de Dados e Análise de Algoritmos, Governança e Serviços de TI, Sistemas Distribuídos e Mobile, Projetos e Processos de TI, e Teoria da Computação e Compiladores.
-",
+      "Já lecionei também Estruturas de Dados e Análise de Algoritmos, Governança e Serviços de TI, Sistemas Distribuídos e Mobile, Projetos e Processos de TI, e Teoria da Computação e Compiladores.",
       "Orientei projetos práticos end-to-end e documentação técnica, incluindo dinâmicas em que outras turmas atuaram como clientes simulados.",
       "Apresentei as principais plataformas de computação em nuvem (Azure, AWS e GCP) e ferramentas de CI/CD aplicadas a projetos de software."
     ],
