@@ -42,7 +42,7 @@ export const ACADEMIC_INFO: Academic[] = [
 export const EXPERIENCES: Experience[] = [
   {
     "id": "exp1",
-    "company": "Faculdade Internacional da Paraíba (FPB)",
+    "company": "Professor de Ensino Superior",
     "role": "Professor de Computação em Nuvem & Dados",
     "location": "João Pessoa, PB (Presencial)",
     "period": "Ago 2025 – Presente",
@@ -58,7 +58,7 @@ export const EXPERIENCES: Experience[] = [
   {
     "id": "exp2",
     "company": "Liga Digital",
-    "role": "Engenheiro de Dados para IA",
+    "role": "Analista de Automação e IA",
     "location": "João Pessoa, PB (Presencial)",
     "period": "Abr 2024 – Jul 2024",
     "description": [
@@ -71,7 +71,7 @@ export const EXPERIENCES: Experience[] = [
   {
     "id": "exp3",
     "company": "Grupo Energisa",
-    "role": "Engenheiro de Dados",
+    "role": "Estagiário de Business Intelligence",
     "location": "João Pessoa, PB (Híbrido)",
     "period": "Ago 2022 – Ago 2023",
     "description": [
@@ -87,7 +87,7 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     "id": "exp4",
-    "company": "Job Space Creative",
+    "company": "Desenvolvedor Web VTEX",
     "role": "Desenvolvedor FullStack",
     "location": "Remoto",
     "period": "Fev 2022 – Jul 2022",
